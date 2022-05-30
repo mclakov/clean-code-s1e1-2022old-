@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.wrapper {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -42,14 +42,14 @@ ul {
     padding: 0px;
 }
 li,
-h3 {
+.title {
     list-style: none;
 }
 input,
-button{
+.btn {
     outline: none;
 }
-button {
+.btn {
     background: none;
     border: 0px;
     color: #888;
@@ -58,11 +58,11 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button:hover {
+.btn:hover {
     color: #3a3a3a;
 }
 /* Heading */
-h3,
+.title,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -120,15 +120,15 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px;
 }
-button.del-btn img {
+.del-btn img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.del-btn img:hover {
+.del-btn img:hover {
     transform: rotateZ(0);
 }
 
