@@ -29,7 +29,7 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.centered-main-page-element__task {
+.element-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
