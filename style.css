@@ -4,22 +4,22 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.matrix img {
     width: 100%;
 }
-.aaa .more_inf {
+.matrix .matrix__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-    .aaa {
+    .matrix {
         text-align: center;
     }
 
@@ -29,12 +29,12 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.centered-main-page-element__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.main-page__task-new-wrapper {
     display: flex;
 }
 ul {
